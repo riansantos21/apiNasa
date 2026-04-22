@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    /* Output settings */
+  
+    "noEmit": true,
+
+    /* Language & target */
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+
+    /* Module & resolution */
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+
+    /* React/JSX settings */
+    "jsx": "react-jsx",
+    "types": ["vite/client"],
+
+    /* Linting & strictness */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+
+    /* Performance */
+    "skipLibCheck": true
+  },
+  "include": ["src"]
+}
