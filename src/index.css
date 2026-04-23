@@ -1,43 +1,47 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: linear-gradient(to right, #eef2f3, #dfe9f3);
+  background: linear-gradient(to bottom, #020111, #0b1a3a, #1a2a5e);
+  color: white;
 }
 
 header {
-  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
-  color: white;
+  background: linear-gradient(to right, #050816, #0d1b3d, #1f3c88);
+  color: #ffffff;
   padding: 15px;
   text-align: center;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 15px rgba(0, 140, 255, 0.4);
 }
 
 .card {
   max-width: 800px;
   margin: 20px auto;
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
   padding: 20px;
-  border-radius: 12px;
+  border-radius: 14px;
   text-align: center;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 20px rgba(0, 180, 255, 0.25);
+  border: 1px solid rgba(255,255,255,0.15);
 }
 
 .image, .video {
   max-width: 100%;
   margin: 10px 0;
-  border-radius: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.15);
 }
 
 .explanation {
   text-align: justify;
   margin-top: 15px;
-  color: #333;
-  line-height: 1.6;
+  color: #dbeafe;
+  line-height: 1.7;
 }
 
 .loader {
   text-align: center;
   margin: 50px;
   font-size: 18px;
-  color: #203a43;
+  color: #7dd3fc;
 }
